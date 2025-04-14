@@ -1,6 +1,7 @@
+
 from google import generativeai as genai
 
-genai.configure(api_key="AIzaSyABvewPbsvR_7f-bSXYJBr3nGLHG5DsKIA")
+genai.configure(api_key="AIzaSyArEvrWldJntfE8OoQO3dKv_YtEqPZsXEE")
 generation_config = dict(
     temperature=1,
     max_output_tokens=8192,
